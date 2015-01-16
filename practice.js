@@ -5,8 +5,8 @@ var name = 'Tyler';
 //Create a function called isTyler that accepts name as it's only argument.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
-  var isTyler = function(name){
-    if (name === "Tyler"){
+  var isTyler = function(theName){
+    if (theName === "Tyler"){
       return true;
 }
     else {
@@ -38,8 +38,8 @@ getName ();
 //then alerts "Welcome, " plus whatever the users name is.
 
 var welcome = function(){
-  var name = getName();
-  alert("Welcome, " + name);
+  var theName = getName();
+  alert("Welcome, " + theName);
 };
 
 welcome();
@@ -74,14 +74,14 @@ alert("the Total Number was " + result);
 
 
 //A parameter is what goes into a function (defines it)
-//An argument is used to invoke a function.
+//An argument is used to invoke a function. 
 
 
 
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-//null, undefined, 0, NaN are the falsy values.
+//null, undefined, 0, NaN, false are the falsy values.
 // you could use an if, else statement to find out of something is falsy.
 
 
